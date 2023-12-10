@@ -18,7 +18,7 @@ fun cases(obj: Any) {
         "Hello" -> println("Greeting")               // 3
         is Long -> println("Long")                   // 4
         !is String -> println("Not a string")        // 5
-        else -> println("Unknown")                   // 6
+        else -> println("Unknown")                   // 6 o else seria o defout em outras liguagens, nao sendo obrigatorio
     }   
 }
 

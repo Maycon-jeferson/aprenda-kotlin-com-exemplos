@@ -3,6 +3,7 @@
  *
  * @see [When](https://play.kotlinlang.org/byExample/02_control_flow/01_When)
  */
+// a fun cria condicoes para o whem
 fun main() {
     cases("Hello")
     cases(1)
@@ -10,9 +11,9 @@ fun main() {
     cases(MyClass())
     cases("hello")
 }
-
+//ira verificar as condicoes dos prametros apresentados
 fun cases(obj: Any) {                                
-    when (obj) {                                     // 1   
+    when (obj) {                                     // 1 
         1 -> println("One")                          // 2
         "Hello" -> println("Greeting")               // 3
         is Long -> println("Long")                   // 4
